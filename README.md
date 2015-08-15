@@ -16,6 +16,11 @@ rial.get("425420000000");
 // ۴۲۵,۴۲۰,۰۰۰ هزار تومان
 
 <code>
-rial.Alphabet("en").Currency("تومان").get("425420000000");
+rial.Alphabet("en").Currency("تومان").Cut(0).get("425420000000");
 </code>
 // 425,420,000,000 تومان
+
+<code>
+rial.Decimal(".").Alphabet("en").Currency("").Cut(0).get("۴۲۵,۴۲۰,۰۰۰");
+</code>
+// 425.420.000
