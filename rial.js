@@ -120,7 +120,7 @@ Rial.prototype.format = function ( str ) {
 }
 
 Rial.prototype.slice = function ( str ) {
-	this.result = str.substring( 0, str.length + this.cut );
+	this.result = str.substring( 0, str.length - this.cut );
 }
 
 Rial.prototype.get = function ( str ) {
