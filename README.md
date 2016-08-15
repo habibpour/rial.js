@@ -1,20 +1,16 @@
-# rial.js
-a tiny JavaScript library for money and currency formatting
-<pre>
-<code>var rial = new Rial( {
-			decimal : ",",
-			alphabet : "fa",
-			currency : "هزار ریال",
-			cut : 3,
-			} );</code>
+# Rial.js
+A tiny JavaScript library for money and currency formatting
+```javascript
+var rial = new Rial({
+	decimal : ",",
+	alphabet : "fa",
+	currency : "هزار ریال",
+	cut : 3,
+});
 
-<code>rial.get("425420000000");</code>
-// ۴۲۵,۴۲۰,۰۰۰ هزار ریال
+rial.get("425420000000"); // ۴۲۵,۴۲۰,۰۰۰ هزار ریال
 
-<code>rial.Alphabet("en").Currency("ریال").Cut(0).get("425420000000");</code>
-// 425,420,000,000 ریال
+rial.Alphabet("en").Currency("ریال").Cut(0).get("425420000000"); // 425,420,000,000 ریال
 
-<code>rial.Decimal(".").Alphabet("en").Currency("").Cut(0).get("۴۲۵,۴۲۰,۰۰۰");</code>
-// 425.420.000
-</pre>
-
+rial.Decimal(".").Alphabet("en").Currency("").Cut(0).get("۴۲۵,۴۲۰,۰۰۰"); // 425.420.000
+```
