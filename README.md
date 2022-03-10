@@ -1,7 +1,7 @@
 # rial.js
 a tiny JavaScript library for money and currency formatting
 <br>
-Made by: Saeid Habibpour, Founder of <a href="https://metaweb.co/">Metaweb.co</a>
+Made by: Saeid Habibpour, Founder of <a href="https://metaweb.co/" rel="nofollow">Metaweb.co</a>
 
 <pre>
 <code>var rial = new Rial( {
