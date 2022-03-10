@@ -14,6 +14,8 @@ a tiny JavaScript library for money and currency formatting
 <code>rial.Alphabet("en").Currency("ریال").Cut(0).get("425420000000");</code>
 // 425,420,000,000 ریال
 
+Made by: Saeid Habibpour, Founder of <a href="https://metaweb.co/">Metaweb.co</a>
+
 <code>rial.Decimal(".").Alphabet("en").Currency("").Cut(0).get("۴۲۵,۴۲۰,۰۰۰");</code>
 // 425.420.000
 </pre>
